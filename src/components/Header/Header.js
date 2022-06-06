@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink';
 
 const Header = () => {
     return (
@@ -45,9 +46,9 @@ const Header = () => {
                         </ul>
                     </div>
                     <div class="navbar-end">
-                        <div className='rounded-full shadow-lg px-5 md:px-5 py-1'>
-                            <Link to="/login"><button class="btn-xs mr-3 uppercase">Login</button></Link>
-                            <button class="btn-xs ml-3 uppercase">Sign Up</button>
+                        <div className='rounded-full shadow-lg px-5 md:px-10 flex py-1'>
+                            <CustomLink className="rounded px-3 py-1" to="/login"><button class="btn-xs uppercase">Login</button></CustomLink>
+                            <CustomLink className="rounded px-3 py-1" to='/signup'><button class="btn-xs  uppercase">Sign Up</button></CustomLink>
                         </div>
                     </div>
                 </div>

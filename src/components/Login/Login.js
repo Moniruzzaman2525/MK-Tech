@@ -1,7 +1,7 @@
 
 
-import React, { useEffect } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../firebase.init';
 import Loading from '../Loading/Loadin';
@@ -18,13 +18,9 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const navigate = useNavigate();
-    const location = useLocation();
-    let from = location.state?.from?.pathname || "/";
-    useEffect(() => {
-        if (user || gUser) {
-            navigate('/');
-        }
-    }, [from, navigate])
+    if (user || gUser) {
+        navigate('/');
+    }
 
     let signInError;
     if (error || gError) {
