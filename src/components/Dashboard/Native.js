@@ -10,7 +10,7 @@ const Native = () => {
             <div class="hero py-20">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='flex-1'>
-                        <img src="https://www.mktechinc.com/assets/new-website.png" class=" max-w-sm rounded-lg shadow-2xl" />
+                        <img src="https://img.freepik.com/free-psd/amazing-american-football-ball-3d-illustration_1419-2682.jpg?size=338&ext=jpg&ga=GA1.2.2090978668.1652901003" class=" max-w-sm rounded-lg shadow-2xl" />
                     </div>
                     <div className='flex-1'>
                         <div>

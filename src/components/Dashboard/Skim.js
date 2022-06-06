@@ -10,7 +10,7 @@ const Skim = () => {
             <div class="hero py-20">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='flex-1'>
-                        <img src="https://www.mktechinc.com/assets/new-website.png" class=" max-w-sm rounded-lg shadow-2xl" />
+                        <img src="https://img.freepik.com/free-photo/3d-render-cylinder-hat-icon-3d-style-4th-july-concept-design_460848-13466.jpg?w=900&t=st=1654533027~exp=1654533627~hmac=e7a73fc76f943c320911859c1e4e8969a6ce6aa8395ce669114a056a86e98248" class=" max-w-sm rounded-lg shadow-2xl" />
                     </div>
                     <div className='flex-1'>
                         <div>
