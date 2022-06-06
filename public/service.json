@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "image": "https://www.mktechinc.com/assets/new-website.png",
+        "name": "New Website / Intranet Launched",
+        "description": "We have successfully developed a new website / corporate intranet using current technologies used at customer sites. This will serve as training for new developers"
+    },
+    {
+        "_id": "629da39558afd303631d4783",
+        "image": "https://www.mktechinc.com/assets/holidayparty.jpg",
+        "name": "Violet Odom",
+        "description": "This year we celebrated another successful year at Mortons Steakhouse! Every year we get together to recognize the corporate accomplishments as well as those employees who contribute to our success daily"
+    },
+    {
+        "_id": "629da395d20aa110f5722a74",
+        "image": "https://www.mktechinc.com/assets/employees.png",
+        "name": "Holiday Party",
+        "description": "While a few employees decided to retire amid the Covid-19 pandemic, we welcomed a few new developers / engineers to our team. We have also placed existing employees on new contracts to further develop their skills."
+    }
+]
