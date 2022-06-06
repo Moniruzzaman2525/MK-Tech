@@ -1,0 +1,8 @@
+.about_btns-active {
+    background: #FF6F00;
+}
+
+.about_btns:last-child {
+    border-bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+}
