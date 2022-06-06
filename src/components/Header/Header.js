@@ -45,8 +45,10 @@ const Header = () => {
                         </ul>
                     </div>
                     <div class="navbar-end">
-                        <input type="button" value="Login" class="btn mr-5" />
-                        <input type="button" value="SIGN UP" class="btn" />
+                        <div className='rounded-full shadow-lg px-5 md:px-5 py-1'>
+                            <Link to="/login"><button class="btn-xs mr-3 uppercase">Login</button></Link>
+                            <button class="btn-xs ml-3 uppercase">Sign Up</button>
+                        </div>
                     </div>
                 </div>
             </div>

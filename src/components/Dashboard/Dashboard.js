@@ -15,10 +15,10 @@ const Dashboard = () => {
             <div>
 
                 <div className="flex  justify-around">
-                    <button className={`rounded-full shadow-lg px-12 py-1 ${aboutFilter === 'POPUNDER' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('POPUNDER')}>POP-UNDER</button>
-                    <button className={`rounded-full shadow-lg px-12 py-1 ${aboutFilter === 'BANNER' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('BANNER')}>BANNER AD</button>
-                    <button className={`rounded-full shadow-lg px-12 py-1 ${aboutFilter === 'NATIVE' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('NATIVE')}>NATIVE</button>
-                    <button className={`rounded-full shadow-lg px-12 py-1 ${aboutFilter === 'SKIM' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('SKIM')}>SKIM</button>
+                    <button className={`rounded-full shadow-lg px-5 md:px-12 py-1 ${aboutFilter === 'POPUNDER' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('POPUNDER')}>POP-UNDER</button>
+                    <button className={`rounded-full shadow-lg px-5 md:px-12 py-1 ${aboutFilter === 'BANNER' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('BANNER')}>BANNER AD</button>
+                    <button className={`rounded-full shadow-lg px-5 md:px-12 py-1 ${aboutFilter === 'NATIVE' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('NATIVE')}>NATIVE</button>
+                    <button className={`rounded-full shadow-lg px-5 md:px-12 py-1 ${aboutFilter === 'SKIM' ? 'about_btns-active' : ''}`} onClick={() => setAboutFilter('SKIM')}>SKIM</button>
                 </div>
 
             </div>
