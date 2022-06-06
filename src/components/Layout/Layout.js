@@ -1,6 +1,7 @@
 
 
 import React, { Fragment } from 'react';
+import BusnessPart from '../BusnessPart/BusnessPart';
 import Dashboard from '../Dashboard/Dashboard';
 import Header from '../Header/Header';
 import Home from '../HomePage/Home/Home';
@@ -12,6 +13,7 @@ const Layout = () => {
         <Home></Home>
         <Services></Services>
         <Dashboard></Dashboard>
+        <BusnessPart></BusnessPart>
     </Fragment>
 };
 

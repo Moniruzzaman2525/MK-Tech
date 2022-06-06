@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import { AiOutlineExport } from 'react-icons/ai';
 
 const Skim = () => {
     return (
@@ -12,11 +13,16 @@ const Skim = () => {
                         <img src="https://www.mktechinc.com/assets/new-website.png" class=" max-w-sm rounded-lg shadow-2xl" />
                     </div>
                     <div className='flex-1'>
-                        <h1 class="text-5xl font-bold">POP-UNDER</h1>
-                        <p class="py-6">This is one of the most popular ads. After user’s click, this
-                            ad opens landing page in behind. So, the user experience is
-                            not hampered much.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <div>
+                            <h1 class="text-5xl font-bold">SKIM</h1>
+                            <p class="py-6">SKIM" is a link that a publisher inserts on a specific site
+                                element, and after clicking on it, an advertisement appears
+                                to the user.
+                                SKIM gives 100% control of your sold traffic amount, higher
+                                CR to advertisers and CPM rates to publishers.</p>
+
+                        </div>
+                        <button class="btn btn-ghost">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
                     </div>
                 </div>
             </div>

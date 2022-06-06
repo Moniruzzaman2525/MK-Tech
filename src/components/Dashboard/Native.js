@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import { AiOutlineExport } from 'react-icons/ai';
 
 const Native = () => {
     return (
@@ -12,11 +13,16 @@ const Native = () => {
                         <img src="https://www.mktechinc.com/assets/new-website.png" class=" max-w-sm rounded-lg shadow-2xl" />
                     </div>
                     <div className='flex-1'>
-                        <h1 class="text-5xl font-bold">POP-UNDER</h1>
-                        <p class="py-6">This is one of the most popular ads. After user’s click, this
-                            ad opens landing page in behind. So, the user experience is
-                            not hampered much.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <div>
+                            <h1 class="text-5xl font-bold">NATIVE</h1>
+                            <p class="py-6">Ad format with the image and the title, that perfectly fits into
+                                the content of the site.
+                                Native ads are placed in the most visible areas of the page
+                                and, thus, this format shows good results and the level of
+                                interaction.</p>
+
+                        </div>
+                        <button class="btn btn-ghost">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
                     </div>
                 </div>
             </div>
