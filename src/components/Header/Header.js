@@ -10,7 +10,7 @@ const Header = () => {
         <div>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
-                    <Link to='/' class="btn btn-ghost normal-case text-xl text-black">MK TECH</Link>
+                    <Link to='/' ><img src="https://www.mktechinc.com/assets/logo.png" alt="" /></Link>
                 </div>
                 <div class="flex-none pr-5">
                     <h2><span className='text-success'>BN</span> / EN</h2>
