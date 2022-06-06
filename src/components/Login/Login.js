@@ -41,7 +41,7 @@ const Login = () => {
         <div className='flex justify-center items-center h-screen'>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <div className="card-body">
-                    <h2 className="text-center text-success text-2xl font-bold">Login</h2>
+                    <h2 className="text-center text-primary text-2xl font-bold">Login</h2>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
 
@@ -87,17 +87,17 @@ const Login = () => {
                                     }
                                 })}
                             />
-                            <label className="label">
+                            <label className="label ">
                                 {errors.password?.type === 'required' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                 {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
 
                             </label>
                         </div>
                         {signInError}
-                        <input className='btn bg-success w-full max-w-xs text-white' type="submit" value="Login" />
+                        <input className='btn border-0 bg-primary w-full max-w-xs text-white' type="submit" value="Login" />
                     </form>
-                    <p><small>New to Lukas<Link className='text-success' to="/signup">Create New Account</Link></small></p>
-                    <div className="divider">OR</div>
+                    <p><small>New to Lukas<Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+                    <div className="divider"><span className='text-secondary'>OR</span></div>
                     <button onClick={() => signInWithGoogle()} className="btn btn-outline"
                     >Continue with google</button>
                 </div>

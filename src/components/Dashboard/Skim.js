@@ -14,15 +14,15 @@ const Skim = () => {
                     </div>
                     <div className='flex-1'>
                         <div>
-                            <h1 class="text-5xl font-bold">SKIM</h1>
-                            <p class="py-6">SKIM" is a link that a publisher inserts on a specific site
+                            <h1 class="text-2xl text-primary font-bold">SKIM</h1>
+                            <p class="py-6 text-neutral">SKIM" is a link that a publisher inserts on a specific site
                                 element, and after clicking on it, an advertisement appears
                                 to the user.
                                 SKIM gives 100% control of your sold traffic amount, higher
                                 CR to advertisers and CPM rates to publishers.</p>
 
                         </div>
-                        <button class="btn btn-ghost">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
+                        <button class="btn btn-ghost btn btn-ghost text-secondary text-lg">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
                     </div>
                 </div>
             </div>

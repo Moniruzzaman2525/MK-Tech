@@ -14,15 +14,15 @@ const Native = () => {
                     </div>
                     <div className='flex-1'>
                         <div>
-                            <h1 class="text-5xl font-bold">NATIVE</h1>
-                            <p class="py-6">Ad format with the image and the title, that perfectly fits into
+                            <h1 class="text-2xl text-primary font-bold">NATIVE</h1>
+                            <p class="py-6 text-neutral">Ad format with the image and the title, that perfectly fits into
                                 the content of the site.
                                 Native ads are placed in the most visible areas of the page
                                 and, thus, this format shows good results and the level of
                                 interaction.</p>
 
                         </div>
-                        <button class="btn btn-ghost">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
+                        <button class="btn btn-ghost text-secondary text-lg">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
                     </div>
                 </div>
             </div>

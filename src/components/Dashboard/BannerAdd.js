@@ -14,12 +14,12 @@ const BannerAdd = () => {
                     </div>
                     <div className='flex-1'>
                         <div>
-                            <h1 class="text-5xl font-bold">BANNER AD</h1>
-                            <p class="py-6">Choose between the available banner formats. Highly
+                            <h1 class="text-2xl font-bold text-primary">BANNER AD</h1>
+                            <p class="py-6 text-neutral">Choose between the available banner formats. Highly
                                 effective ad for visibility. Choose between the banner</p>
 
                         </div>
-                        <button class="btn btn-ghost">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
+                        <button class="btn btn-ghost text-secondary text-lg">Learn more <AiOutlineExport className='ml-2'></AiOutlineExport></button>
                     </div>
                 </div>
             </div>
